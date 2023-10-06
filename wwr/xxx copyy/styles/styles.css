@@ -1,0 +1,73 @@
+img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    width: 80%;
+}
+h1 {
+    width: 80%;
+}
+a {
+    font-size: 1.5em;
+    color: white
+}
+/* * {
+    border: 2px solid blue;
+} */
+h1 {
+    
+    font-size: .5em;
+    text-align: center;
+    background-color: pink; 
+    color: white
+    
+}
+/* h2 {
+        text-align: center;
+        background-color: pink; 
+        color: white */
+/* } */
+h3 {
+    font-size: .5em;
+    /* text-align: center; */
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: pink; 
+    color: black
+}
+nav, footer {
+    text-align: center;
+}
+main p {
+    width: 20%;
+    margin: 20px auto;
+    text-align: center;
+    color: white
+}
+nav, footer {
+    background-color: pink; 
+    color: black;
+    padding: 10px;
+}
+footer p {
+    font-size: 20px;
+    margin: 10px auto;
+    
+}
+main h1 {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover {
+    background-color: pink;
+    color: black;
+}
+/* .contenedor {
+   background-color: pink;
+} */
+body {
+    background-color: pink;
+}
