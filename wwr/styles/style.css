@@ -60,12 +60,13 @@ nav a:hover, .book:hover, .join:hover, footer a:hover {
 footer p {
     font-size: 1.2em; 
 }
-@import url('https://fonts.googleapis.com/css?family=YourChosenFont');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Roboto+Condensed:wght@700&family=Rock+Salt&display=swap');
+
 body {
-    font-family: 'YourChosenFont', Arial, sans-serif;
+    font-family: 'Rock Salt', Arial, sans-serif;
 }
 .home-title {
-    font-family: 'YourChosenHeadlineFont', Arial, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
 }
 body {
     font-size: 22px;
