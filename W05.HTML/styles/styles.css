@@ -1,0 +1,35 @@
+/* Establezco el ancho máximo de todas las imágenes como "auto" para mantener su proporción. */
+img {
+  max-width: auto;
+  /* Agrego un margen de color gris (rgb(68, 67, 67)) alrededor de las imágenes. */
+  margin: rgb(68, 67, 67);
+}
+
+/* Configuro la imagen de fondo para el cuerpo (body) con un tamaño de "cover" (cubre todo el fondo). */
+body {
+background-image: url('w05_circles.jpg');
+background-size: cover;
+}
+
+/* Defino los estilos para la sección principal del contenido. */
+main {
+background-color: gray; /* Establezco el fondo en color gris. */
+width: 72%; /* Establezco un ancho del 72% del ancho disponible. */
+padding: 9%; /* Agrego un relleno del 9% del ancho disponible. */
+}
+
+/* Establezco los estilos para el contenedor de la caja gris. */
+.gray-box {
+background-color: gray; /* Configuro el fondo en color gris. */
+width: 100%; /* Utilizo el 100% de ancho para llenar todo el espacio disponible. */
+display: flex; /* Utilizo flexbox para alinear horizontalmente las imágenes. */
+justify-content: space-between; /* Agrego espacio entre las imágenes. */
+padding: 10px; /* Agrego un relleno de 10px alrededor del contenedor. */
+}
+
+/* Defino los estilos para las imágenes dentro de la caja gris. */
+.gray-box img {
+max-width: 30%; /* Establezco un ancho máximo del 30% para que quepan en el contenedor. */
+border: 15px solid rgb(48, 47, 47); /* Agrego un borde gris de 15px de ancho a las imágenes. */
+border-radius: 50%; /* Aplico bordes redondeados para que parezcan círculos. */
+}
