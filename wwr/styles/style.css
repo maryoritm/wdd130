@@ -208,7 +208,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: auto;
-    grid-gap: 10px; /* Opcional: Agrega espacio entre las celdas de la cuadrícula */
+    grid-gap: 10px; 
   }
   .card-img, .mountains {
     width: 100%;
