@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@700&display=swap');
+
+:root {
+  --primary-color: #ECF8F8 ;
+  --secondary-color: #C44017 ;
+  --accent1-color: #836B53;
+  --accent2-color: #AEE6B9;
+
+  --heading-font: "Roboto";
+  --paragraph-font: Handlee, Helvetica, sans-serif;
+
+  --headline-color-on-white: #396E94;  
+  --headline-color-on-color: #C44017 ; 
+  --paragraph-color-on-white: #488674; 
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: #143851  ;
+  --nav-link-color: #bad173;
+  --nav-background-color: #c44017;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
