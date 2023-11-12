@@ -1,0 +1,52 @@
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+body {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Color de fondo negro en los lados */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white; /* Color de fondo blanco en la columna del medio */
+    padding: 0px; /* Espacio interno para el contenido en la columna del medio */
+    text-align: center; /* Centrar el contenido */
+    height: 100%; /* Ocupar toda la altura disponible */
+}
+
+.ice {
+    max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
+}
+
+footer {
+    background-color: blue; /* Color de fondo azul para el pie de página */
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px; /* Espacio interno para el pie de página */
+    border-top: 1px solid black; /* Borde superior para separar el pie de página del contenido */
+}
+
+/* Estilos para los encabezados y el párrafo */
+h1, h2, div {
+    margin: 10px 80px; /* Espaciado vertical para los elementos */
+}
+
+/* Margen de color negro a la izquierda */
+main {
+    margin-left: 0px; /* Ajusta el valor según tu preferencia */
+    margin-right: 0px;
+    justify-content: center;
+}
+/* Alinea el footer debajo del contenido principal */
+footer {
+    margin-top: 20px; /* Ajusta el valor según tu preferencia */
+}
