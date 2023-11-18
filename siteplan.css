@@ -1,0 +1,25 @@
+body {
+    font-family: 'Handlee', cursive;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Add your color and other styling as needed */
+  
+  #gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
