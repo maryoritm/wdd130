@@ -2,10 +2,16 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
+  background-color: #AEE6B9;
   color: #333;
+;
+  
 }
-
+#content {
+  max-width: 1200px;
+  background-color: #ECF8F8;
+  margin: 0 auto; 
+}
 header {
   background-color: #dc3545;
   color: white;
@@ -25,8 +31,23 @@ nav a {
 
 main {
   padding: 20px;
+  
 }
+#gallery2 {
+  background-color: #836B53;
+  width: 80%;
+  text-align: center;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
+}
+#childpage2 {
+  height: 600px
+}
+#gallery2 img {
+  border-radius: 15px;
+}
 section {
   margin-bottom: 20px;
 }
@@ -61,4 +82,64 @@ footer {
 #gallery img {
   max-width: 100%;
   height: auto;
+}
+header {
+  background-color: #dc3545;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  max-height: 100px; /* ajusta el tamaño según sea necesario */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+#gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin: 10px; /* Añadido para dar un poco de espacio entre las imágenes */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Añadido un efecto de sombra */
+  transition: transform 0.3s ease-in-out; /* Añadido efecto de transición en hover */
+
+}
+
+#gallery img:hover {
+  transform: scale(1.1); /* Añadido efecto de escala en hover */
+}
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end; /* Alinea los elementos hacia el extremo derecho */
+  align-items: center;
+}
+
+.social {
+  margin-top: 10px;
+  display: flex; /* Añadido para que los elementos dentro de .social se alineen horizontalmente */
+}
+
+.social a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social a:hover {
+  transform: scale(1.1);
 }
