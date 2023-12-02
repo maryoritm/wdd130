@@ -4,8 +4,14 @@ body {
   padding: 0;
   background-color: #AEE6B9;
   color: #333;
-;
   
+}
+h4 {
+  font-family: 'Roboto', sans-serif; /* Cambia el tipo de letra para los encabezados h4 */
+}
+
+p {
+  font-family: 'Handlee', cursive; /* Cambia el tipo de letra para los párrafos */
 }
 #content {
   max-width: 1200px;
